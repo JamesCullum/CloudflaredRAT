@@ -1,4 +1,4 @@
-# Cloudflared RAT
+# CloudflaredRAT
 
 [![Icon](https://raw.githubusercontent.com/JamesCullum/CloudflaredRAT/main/.github/images/gopher.png)](https://gopherize.me/)
 
