@@ -32,8 +32,8 @@ CloudflaredRAT is a simple combination of popular open-source tools, wrapping a 
 
 1. Download and extract the repository
 2. Make sure you have WinRAR installed and the WinRAR.exe configured in your PATH
-3. File `bridge.exe` contains the cloudflared CLI. Use it to [create a JSON file for the target tunnel](https://blog.cloudflare.com/argo-tunnels-that-live-forever/#how-it-works). 
-4. [Map the argo tunnel hostname to a public facing domain](https://developers.cloudflare.com/argo-tunnel/routing-to-tunnel/dns) on Cloudflare.
+3. File `bridge.exe` contains the cloudflared CLI. Use it to [create a JSON file for the target tunnel](https://blog.cloudflare.com/argo-tunnels-that-live-forever/#how-it-works).
+4. [Map the argo tunnel hostname to a public facing domain](https://developers.cloudflare.com/argo-tunnel/routing-to-tunnel/dns) on Cloudflare
 5. Run `1_configure.ps1` and fill in the variables when prompted
 6. (Optional) Replace the icon.ico with the icon you want to use instead for your executable
 7. Run `2_build.ps1` to create the executable
