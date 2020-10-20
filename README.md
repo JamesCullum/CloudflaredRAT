@@ -1,6 +1,6 @@
 # Cloudflared RAT
 
-[![Icon](https://raw.githubusercontent.com/JamesCullum/CloudflaredRAT/master/.github/images/gopher.png)](https://gopherize.me/)
+[![Icon](https://raw.githubusercontent.com/JamesCullum/CloudflaredRAT/main/.github/images/gopher.png)](https://gopherize.me/)
 
 CloudflaredRAT is a simple combination of popular open-source tools, wrapping a local-facing shell with Cloudflares Argo Tunnel in an executable, to create a persistent internet-facing encrypted web shell for remote access. It is designed and created for red teams, as it does not scale well. Make sure you have permission of the target (company) before using it.
 
