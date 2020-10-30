@@ -37,4 +37,4 @@ CloudflaredRAT is a simple combination of popular open-source tools, wrapping a 
 5. Run `1_configure.ps1` and fill in the variables when prompted
 6. (Optional) Replace the icon.ico with the icon you want to use instead for your executable
 7. Run `2_build.ps1` to create the executable
-8. Execute on the target machine and wait for thr website to be available
+8. Execute on the target machine and wait for the website to be available
